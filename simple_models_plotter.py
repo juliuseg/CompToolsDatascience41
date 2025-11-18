@@ -11,6 +11,10 @@ def plot_accuracy(results):
     models = [r["model"] for r in results]
     accuracies = [r["accuracy"] for r in results]
 
+    # print also accuracy for each model
+    for model, accuracy in zip(models, accuracies):
+        print(f"{model}: {accuracy}")
+
     plt.figure(figsize=(7, 4))
     sns.barplot(x=models, y=accuracies)
     plt.ylabel("Accuracy")

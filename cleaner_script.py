@@ -26,7 +26,7 @@ df = df[df['reviews.rating'].isin([1.0, 2.0, 3.0, 4.0, 5.0])]
 # df = df.head(5000)
 print("before keeping only english", df.shape)
 tqdm.pandas(desc="Detecting English reviews")
-df = df.head(5000).reset_index(drop=True)
+df = df.reset_index(drop=True) # .head(5000)
 print("before keeping only english", df.shape)
 
 # === Keep only English reviews ===
