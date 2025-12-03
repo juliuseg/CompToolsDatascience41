@@ -9,4 +9,6 @@
 /simple_models_plotter.py
 /simple_models_testing.py
 /*.csv
+*.csv
 /*.zip
+/airbnbDataAnalysis.ipynb
