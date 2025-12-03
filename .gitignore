@@ -3,3 +3,10 @@
 /.gitignore
 /.simple_models_results.json
 /results_df_*.csv
+/cleaner_script.py
+/CV_testing.py
+/simple_models_results.json
+/simple_models_plotter.py
+/simple_models_testing.py
+/*.csv
+/*.zip
