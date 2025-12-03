@@ -1,6 +1,6 @@
+# Python + project ignores
 /data
 /.venv
-/.gitignore
 /.simple_models_results.json
 /results_df_*.csv
 /cleaner_script.py
@@ -13,14 +13,9 @@
 /*.zip
 /airbnbDataAnalysis.ipynb
 
-/WordClouds_Combined/*
-/WordClouds15/*
-/ResultsClusterWC/*
-/graphs/*
-/analysis_results/*
-
-/WordClouds_Combined/*.png
-/WordClouds15/*.png
-/ResultsClusterWC/*.png
-/graphs/*.png
-/analysis_results/*.png
+# Ignore entire directories
+/WordClouds_Combined/
+/WordClouds15/
+/ResultsClusterWC/
+/graphs/
+/analysis_results/

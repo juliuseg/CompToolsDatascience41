@@ -1,5 +1,12 @@
 # Sentiment Analysis and Clustering Overview
+Only file is ComprehensiveSentimentAnalysis.ipynb
+Describtion etc to be done later...
 
+
+
+
+
+<!-- 
 This repo contains notebooks that run sentiment analysis on Airbnb, hotel, and TripAdvisor reviews, and then link those results to Airbnb listing clusters to see what people like or complain about.
 
 ### sentimentAnalysisAirbnb.ipynb
@@ -12,4 +19,4 @@ Applies the same sentiment pipeline to hotel reviews so we can benchmark and com
 Runs the same sentiment process on TripAdvisor reviews to test model consistency across platforms.
 
 ### airbnbDataAnalysisLeaveOneOut.ipynb
-Combines Airbnb cluster labels with the sentiment results and generates positive/negative word clouds for each cluster.
+Combines Airbnb cluster labels with the sentiment results and generates positive/negative word clouds for each cluster. -->
