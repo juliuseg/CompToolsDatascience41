@@ -12,3 +12,15 @@
 *.csv
 /*.zip
 /airbnbDataAnalysis.ipynb
+
+/WordClouds_Combined/*
+/WordClouds15/*
+/ResultsClusterWC/*
+/graphs/*
+/analysis_results/*
+
+/WordClouds_Combined/*.png
+/WordClouds15/*.png
+/ResultsClusterWC/*.png
+/graphs/*.png
+/analysis_results/*.png
