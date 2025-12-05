@@ -1,0 +1,35 @@
+name: comptools
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scipy
+  - scikit-learn
+  - jupyter
+  - ipywidgets
+  - pip
+  - pip:
+    # NLP and Sentiment Analysis
+    - nltk
+    - langid
+    - wordcloud
+    - transformers
+    - sentence-transformers
+    - torch
+    # Geospatial
+    - geopandas
+    - contextily
+    # Google AI
+    - google-genai
+    # Clustering
+    - pyclustertend
+    # Image processing
+    - pillow
+    # Progress bars
+    - tqdm
+
