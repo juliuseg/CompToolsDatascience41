@@ -1,7 +1,14 @@
 # Sentiment Analysis and Clustering Overview
-Only file is ComprehensiveSentimentAnalysis.ipynb
-Describtion etc to be done later...
+### ComprehensiveSentimentAnalysis.ipynb
 
+This notebook includes datacleaning of the reviews and sentiment analysis for Airbnb, hotel, and TripAdvisor reviews. Section 3 has results of logistical and SVM performance. 4.5 has performance of VADER and RoBERTa. The wordclouds used in the report can be found in section 6. 
+
+
+### DataCleaning_Clustering.ipynb
+
+The notebook contains the data cleaning and the clustering of listings.csv. The first 2 sections are part of our final solution. The second 2 sections contain an effort to improve the clustering, but we decided not to use them in our final solution.
+
+In the second part, there are 2 blocks where the code calls Gemini for a specific task, which is time consuming and requires an API key to run. We uploaded the results of these blocks as separate files which are read by the code later, and these special parts are commented out.
 
 
 

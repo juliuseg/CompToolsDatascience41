@@ -10,6 +10,7 @@
 /simple_models_testing.py
 /*.csv
 *.csv
+/*.jsonl
 /*.zip
 /airbnbDataAnalysis.ipynb
 
@@ -19,3 +20,10 @@
 /ResultsClusterWC/
 /graphs/
 /analysis_results/
+
+/sentimentAnalysisAirbnb.ipynb
+/sentimentAnalysisHotels.ipynb
+/sentimentAnalysisTripAdvisor.ipynb
+/airbnbDataAnalysisLeaevOneOut.ipynb
+
+/Clustering/hygge_scores_split.jsonl
