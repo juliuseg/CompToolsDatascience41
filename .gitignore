@@ -1,5 +1,4 @@
 # Python + project ignores
-/data
 /.venv
 /.simple_models_results.json
 /results_df_*.csv
@@ -10,7 +9,6 @@
 /simple_models_testing.py
 /*.csv
 *.csv
-/*.jsonl
 /*.zip
 /airbnbDataAnalysis.ipynb
 
@@ -26,4 +24,7 @@
 /sentimentAnalysisTripAdvisor.ipynb
 /airbnbDataAnalysisLeaevOneOut.ipynb
 
-/Clustering/hygge_scores_split.jsonl
+!listings_amenities_cleaned.csv
+!listings.csv
+
+!/data/*
