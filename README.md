@@ -3,6 +3,10 @@
 
 This notebook includes datacleaning of the reviews and sentiment analysis for Airbnb, hotel, and TripAdvisor reviews. Section 3 has results of logistical and SVM performance. 4.5 has performance of VADER and RoBERTa. The wordclouds used in the report can be found in section 6. 
 
+Airbnb data should be downloaded and put in /data. Too large for github. It can be found under reviews for:
+AirBNB: https://insideairbnb.com/copenhagen/
+
+
 
 ### DataCleaning_Clustering.ipynb
 
